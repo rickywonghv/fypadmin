@@ -1,0 +1,7 @@
+admin type: superadmin, admin, musicadmin
+
+superadmin: Control all the admin and user include musicadmin, unable to delete this account.
+admin: Control user and musicadmin, CRUD music also available.
+musicadmin: CRUD music only, no more permission.
+
+Theme Colour: #a3d3ff

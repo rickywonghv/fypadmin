@@ -1,0 +1,256 @@
+.searchBar{
+	max-width: 500px;
+	float: right;
+	padding-bottom: 3px;
+}
+#addModel{
+	padding-bottom: 10px;
+}
+
+#response{
+	padding-top: 5px;
+}
+.counthead{
+	text-align: center;
+}
+.iconCounter{
+	text-align: center;
+}
+.valCounter{
+	font-size: 40px;
+	text-align: center;
+}
+
+.sendicon{
+	font-size: 75px;
+}
+
+.tit{
+	margin:auto;
+	padding:auto;
+	text-align: center;
+	font-size: 20px;
+}
+
+.glyphicon.glyphicon-music{
+	font-size: 75px;
+}
+#callback{
+	padding-top: 10px;
+}
+#ashmsg{
+	max-width: 1000px;
+	margin:auto;
+}
+#shchmsg{
+	max-width: 500px;
+	margin:auto;
+}
+#chpwdcont{
+	max-width: 500px;
+	margin:auto;
+}
+#musicheader{
+	font-size: 30px;
+	font-family: fantasy;
+}
+
+.inp{
+	padding-top: 3px;
+}
+.mailbtn{
+	width: 100%;
+}
+
+.player{
+  padding: 2px;
+  background: rgba(53, 48, 55, 1);
+  color:#fff;
+}
+
+.jcontrol{
+  font-size: 30px;
+
+}
+.art{
+  float:center;
+}
+.download{
+  float:right;
+}
+.musicdbtn{
+  float:right;
+}
+.song{
+  position: relative;
+}
+
+.song.btn{
+  color: #000;
+  background: #fff;
+  text-decoration: none;
+}
+
+.song.btn:hover {
+  background: #fff;
+  text-decoration: none;
+}
+
+
+
+
+div.jp-controls-holder {
+    clear: both;
+    max-width:100%;
+    margin: 0 auto;
+
+    position: relative;
+    overflow:hidden;
+}
+
+.jp-progress {
+    background: #706d6d;
+    /*background: rgb(224, 246, 89);*/
+    cursor: pointer;
+    overflow:hidden;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+
+    -webkit-box-shadow:
+        inset 0px 1px 4px rgba(0,0,0,.4),
+        0px 1px 0px rgba(255,255,255,.4);
+    -moz-box-shadow:
+        inset 0px 1px 4px rgba(0,0,0,.4),
+        0px 1px 0px rgba(255,255,255,.4);
+    box-shadow:
+        inset 0px 1px 4px rgba(0,0,0,.4),
+        0px 1px 0px rgba(255,255,255,.4);
+
+    max-width:1000px;
+    height:5px;
+    float:left;
+    margin-top: 13px;
+}
+
+.jp-seek-bar {
+    width:100%;
+    height:100%;
+    cursor: pointer;
+}
+
+.jp-seeking-bg {
+    background:#387945;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    width:100%;
+}
+.handle{
+
+
+}
+.jp-play-bar {
+    background: url("http://shared.ec2.hustream.com/player/v3/skin/ibm/playbar-background.png");
+    /*background: #fff left repeat-x;*/
+    width:100px;
+    height:5px;
+    position:relative;
+    z-index: 9999;
+
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+
+.jp-play-bar span {
+    position:absolute;
+    top: -3px;
+    right: -12px;
+    background:url("http://orig06.deviantart.net/f85b/f/2012/102/1/a/volume_button_thing__by_aztrogfx-d4vwemn.png") no-repeat center;
+
+    /*background: rgb(142, 81, 77) no-repeat center;*/
+    width: 16px;
+    height: 17px;
+}
+
+.jp-current-time,
+.jp-duration {
+    font-size:11px;
+
+    color:#ffffff;
+    margin-top: 12px;
+
+}
+.jp-current-time {
+
+    display:inline;
+}
+.jp-duration {
+
+    display:inline;
+    text-align: right;
+}
+.jp-video .jp-current-time {
+    margin-left:10px;
+}
+.jp-video .jp-duration {
+    margin-right:10px;
+}
+.time-sep {
+
+    margin: 13px 3px 0 3px;
+
+    font-size:11px;
+
+    color:#ffffff;
+}
+
+
+.jp-volume-bar {
+    float:right;
+    margin-top: 13px;
+    margin-right: 10px;
+
+    width:70px;
+    height:10px;
+    cursor: pointer;
+
+    background: #706d6d;
+
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+
+    -webkit-box-shadow:
+        inset 0px 1px 4px rgba(0,0,0,.4),
+        0px 1px 0px rgba(255,255,255,.4);
+    -moz-box-shadow:
+        inset 0px 1px 4px rgba(0,0,0,.4),
+        0px 1px 0px rgba(255,255,255,.4);
+    box-shadow:
+        inset 0px 1px 4px rgba(0,0,0,.4),
+        0px 1px 0px rgba(255,255,255,.4);
+}
+
+.shsonglist{
+  float:right;
+}
+
+.jp-volume-bar-value {
+    background: transparent;
+    width:0px;
+    height:10px;
+    position: relative;
+}
+
+.jp-volume-bar-value span {
+    position:absolute;
+    top: 0px;
+    right: 0px;
+background:url("http://orig06.deviantart.net/f85b/f/2012/102/1/a/volume_button_thing__by_aztrogfx-d4vwemn.png") no-repeat center;
+
+    /*background: rgb(142, 81, 77);*/
+    width: 11px;
+    height: 10px;
+}
